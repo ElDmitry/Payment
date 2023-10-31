@@ -7,6 +7,11 @@ window.fineList = {
 let DB = data.finesData;
 
 function searchFines(searchKey){
+    for (const searchKey in DB) {
+         
+    }
+
+
     /*
      Напишіть свій код тут!
      Як ви бачите функція повертає статичні дані.
